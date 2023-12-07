@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FAFAFA">
+
+    <!-- Search Bar for Meal Name or Ingredient -->
+    <EditText
+        android:id="@+id/editTextSearchQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Meal Name or Ingredient"
+        android:inputType="text"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Button: Add Meals to DB -->
+    <Button
+        android:id="@+id/btnAddMealsToDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Meals to DB"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Button: Search for Meals By Ingredient -->
+    <Button
+        android:id="@+id/btnSearchMealsByIngredient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search for Meals By Ingredient"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Button: Search for Meals -->
+    <Button
+        android:id="@+id/btnSearchMeals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search for Meals"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+    <!-- Add this section at the bottom of your existing XML layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewMeals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

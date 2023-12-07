@@ -1,0 +1,7 @@
+<resources>
+    <color name="colorPrimary">#6200EE</color> <!-- Example primary color -->
+    <color name="colorPrimaryVariant">#3700B3</color> <!-- Example primary variant color -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Color for text/icons on primary color -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
